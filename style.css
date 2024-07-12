@@ -13,3 +13,91 @@ body{
     padding: 40px;
     border-radius: 30px;
 }
+.calculation-container-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.amount-title{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #313131;
+}
+.loan-amount {
+    background-color: transparent;
+    color: #313131;
+    border: 1px solid #313131;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+}
+
+.pay{
+    background-color: transparent;
+    color: #313131;
+    border: 1px solid #313131;
+    font-size: 14px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+}
+.loan-amount:hover, .pay:hover {
+    background-color: #00be53;
+    color: #FFF;
+    transition: all .3s ease-in-out;
+}
+.btn-group{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.loan-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#calculate-amount{
+    background-color: #000000;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px 25px;
+    color: white;
+}
+.button-link{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.button-link button {
+    background-color: #000000;
+    font-size: 18px;
+    padding: 20px 0;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+.button-link button:hover{
+    background-color: #00be53;
+    transition: all .3s ease-in-out;
+}
+.button-link p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #313131;
+}
+.hidden-text-and-calculate-amount{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #313131;
+}
