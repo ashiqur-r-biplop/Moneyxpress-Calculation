@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="calculation-container">
-      <div class="calculation-container-inner">
-        <div class="loan-container">
-            <h2 class="amount-title">Select your loan amount</h2>
-            <div class="btn-group">
-                <button class="loan-amount">$500</button>
-                <button class="loan-amount">$750</button>
-                <button class="loan-amount">$1000</button>
-                <button class="loan-amount">$1250</button>
-                <button class="loan-amount">$1500</button>
-            </div>
-          </div>
-          <div class="loan-container">
-            <h2 class="amount-title">If you pay</h2>
-            <div  class="btn-group">
-                <button class="pay">every week</button>
-                <button class="pay">biweekly</button>
-                <button class="pay">monthly</button>
-            </div>
-          </div>
-          <div class="hidden-text-and-calculate-amount">
-            <p>You can expect payments of: <span id="calculate-amount">$20</span></p>
-          </div> 
-          <div class="button-link">
-            <button>Submit a request now!</button>
-            <p>*Please note these are examples.</p>
-          </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="calculation-container">
+    <div class="calculation-container-inner">
+      <div class="loan-container">
+        <h2 class="amount-title">Select your loan amount</h2>
+        <div class="btn-group">
+          <button class="loan-amount">$500</button>
+          <button class="loan-amount">$750</button>
+          <button class="loan-amount">$1000</button>
+          <button class="loan-amount">$1250</button>
+          <button class="loan-amount">$1500</button>
+        </div>
+      </div>
+      <div class="loan-container">
+        <h2 class="amount-title">If you pay</h2>
+        <div class="btn-group">
+          <button class="pay">every week</button>
+          <button class="pay">biweekly</button>
+          <button class="pay">monthly</button>
+        </div>
+      </div>
+      <div class="hidden-text-and-calculate-amount hidden">
+        <p>You can expect payments of: <span id="calculate-amount">$20</span></p>
+      </div>
+      <div class="button-link">
+        <button>Submit a request now!</button>
+        <p>*Please note these are examples.</p>
       </div>
     </div>
-  </body>
+  </div>
+  <script src="./script.js"></script>
+</body>
 </html>
