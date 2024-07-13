@@ -9,11 +9,10 @@ body {
 }
 
 .calculation-container {
-  max-width: 470px;
-  width: 100%;
+  display: inline-block;
   background-color: white;
   padding: 40px;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .calculation-container-inner {
